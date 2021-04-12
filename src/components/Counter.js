@@ -57,7 +57,7 @@ export default function Counter() {
     /* STEP 4 */
   };
   const decrement = () => {
-  {setCount(count - 1)};
+    {setCount(count - 1)};
     /* STEP 5 */
   };
   const reset = () => {
