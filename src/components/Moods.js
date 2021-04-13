@@ -39,22 +39,22 @@ export default function Moods() {
   /* STEP 1 */
 
   const makeHappy = () => {
-    {setMood(happyMood)}
+    setMood(happyMood)
     /* STEP 4 */
   };
   const makeSad = () => {
-    {setMood(sadMood)}
+    setMood(sadMood)
     /* STEP 5 */
   };
   const reset = () => {
-    {setMood(initialMood)}
+    setMood(initialMood)
     /* STEP 6 */
   };
 
   const style = {
     fontSize: '1.5em',
     marginBottom: '0.3em',
-    color: (mood === happyMood) ?'royalblue' : 'crimson', /* STEP 2 */
+    color: mood === happyMood ?'royalblue' : 'crimson', /* STEP 2 */
   };
 
   return (

@@ -53,22 +53,22 @@ export default function Counter() {
   /* STEP 1 */
 
   const increment = () => {
-    {setCount(count + 1)};
+    setCount(count + 1);
     /* STEP 4 */
   };
   const decrement = () => {
-    {setCount(count - 1)};
+    setCount(count - 1);
     /* STEP 5 */
   };
   const reset = () => {
-    {setCount(0)};
+    setCount(0);
     /* STEP 6 */
   };
 
   const style = {
     fontSize: '1.5em',
     marginBottom: '0.3em',
-    color: (count % 2 === 0) ? 'royalblue' : 'crimson'
+    color: count % 2 === 0 ? 'royalblue' : 'crimson'
       /* STEP 2 */
   };
 

@@ -49,14 +49,14 @@ export default function Input() {
   };
 
   const reset = () => {
-    {setInputValue('')}
+    setInputValue('')
     /* STEP 5 */
   };
 
   const style = {
     fontSize: '1.5em',
     marginBottom: '0.3em',
-    color: (inputValue.length <= 10) ? 'royalblue' : 'crimson' /* STEP 2 */
+    color: inputValue.length <= 10 ? 'royalblue' : 'crimson' /* STEP 2 */
   };
 
   return (
